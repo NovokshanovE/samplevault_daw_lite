@@ -1,0 +1,24 @@
+name: samplevault_daw_lite
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  # audioplayers: ^6.0.0
+  equalizer_flutter: ^0.0.1
+  equalizer_flutter_custom: ^0.0.3
+  flutter:
+    sdk: flutter
+  music_visualizer: ^1.0.4
+  window_manager: ^0.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
